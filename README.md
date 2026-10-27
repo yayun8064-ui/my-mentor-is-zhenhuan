@@ -1,4 +1,7 @@
-# 甄嬛.skill · 召唤甄嬛，当你的职场军师
+# 我的mentor是甄嬛
+
+> 召唤甄嬛，当你的职场 mentor。
+
 
 > 面试被追问、老板不松口、会上被当众质疑、饭局上不知道怎么开口……
 > 把这个局说给她听。她会用自己的口吻帮你看透对面那个人，出一招，再递你一句明天就能说出口的话。
@@ -65,10 +68,10 @@
 **Claude Code**
 
 ```bash
-git clone https://github.com/yayun8064-ui/zhenhuan-skill.git ~/.claude/skills/zhenhuan-junshi
+git clone https://github.com/yayun8064-ui/my-mentor-is-zhenhuan.git ~/.claude/skills/my-mentor-is-zhenhuan
 ```
 
-重启 Claude Code 后，说“召唤甄嬛”或“问问甄嬛”就能用。
+重启 Claude Code 后，说“我的mentor是甄嬛”“召唤甄嬛”或“问问甄嬛”就能用。
 
 **其他支持 Skill 或知识库的 AI 工具**
 
@@ -76,7 +79,7 @@ git clone https://github.com/yayun8064-ui/zhenhuan-skill.git ~/.claude/skills/zh
 
 ## 怎么用
 
-- **触发词**：甄嬛军师、问问甄嬛、召唤甄嬛、甄嬛怎么办。
+- **触发词**：我的mentor是甄嬛、召唤甄嬛、问问甄嬛、甄嬛怎么办、甄嬛军师。
 - **把局说清楚，她能看得更准**：你要面对的人是谁、和你什么关系，发生了什么（当众还是私下），你想要什么结果。
 - **想练就说“陪我练练”**，她会扮成那个人出题。
 - 她给你的话里，涉及数字、项目、经历的地方会用括号空着，要你自己填真实的内容。她不会替你编。
@@ -84,7 +87,7 @@ git clone https://github.com/yayun8064-ui/zhenhuan-skill.git ~/.claude/skills/zh
 ## 目录结构
 
 ```
-zhenhuan-skill/
+my-mentor-is-zhenhuan/
 ├── SKILL.md              # 甄嬛的人设、口吻和支招规则
 └── references/
     ├── 场景映射.md        # 职场情形 → 剧中的局 → 可用的招 → 雷区
